@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:G:/CAO/comparator_1bit/comparator_1bit.srcs/constrs_1/new/constraint_comp_1_bit.xdc rfile:../../../comparator_1bit.srcs/constrs_1/new/constraint_comp_1_bit.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V17 [get_ports {a}]
+set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V16 [get_ports {b}]
+set_property src_info {type:XDC file:1 line:47 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports {e}]
