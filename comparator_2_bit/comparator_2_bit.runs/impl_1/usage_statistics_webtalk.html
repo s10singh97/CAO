@@ -4,11 +4,11 @@
   <TR ALIGN='CENTER' BGCOLOR='#A7BFDE'><TD COLSPAN='4'><B>software_version_and_target_device</B></TD></TR>
 <TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>beta</B></TD><TD>FALSE</TD>
   <TD BGCOLOR='#DBE5F1'><B>build_version</B></TD><TD>2258646</TD>
-</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>date_generated</B></TD><TD>Wed Feb  6 16:28:20 2019</TD>
+</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>date_generated</B></TD><TD>Wed Feb  6 16:32:55 2019</TD>
   <TD BGCOLOR='#DBE5F1'><B>os_platform</B></TD><TD>WIN64</TD>
 </TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>product_version</B></TD><TD>Vivado v2018.2 (64-bit)</TD>
   <TD BGCOLOR='#DBE5F1'><B>project_id</B></TD><TD>e528538598c3420c872b8b53f7f23225</TD>
-</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>project_iteration</B></TD><TD>4</TD>
+</TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>project_iteration</B></TD><TD>5</TD>
   <TD BGCOLOR='#DBE5F1'><B>random_id</B></TD><TD>e52298ec-def2-4ad1-8426-9e817a520196</TD>
 </TR><TR ALIGN='LEFT'>  <TD BGCOLOR='#DBE5F1'><B>registration_id</B></TD><TD>e52298ec-def2-4ad1-8426-9e817a520196</TD>
   <TD BGCOLOR='#DBE5F1'><B>route_design</B></TD><TD>TRUE</TD>
@@ -32,27 +32,30 @@
 <TR ALIGN='LEFT'>  <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
    <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>gui_handlers</B></TD></TR>
 <TR ALIGN='LEFT'>   <TD>basedialog_cancel=1</TD>
-   <TD>basedialog_ok=22</TD>
+   <TD>basedialog_ok=24</TD>
+   <TD>closeplanner_yes=1</TD>
    <TD>cmdmsgdialog_ok=3</TD>
-   <TD>constraintschooserpanel_create_file=1</TD>
-</TR><TR ALIGN='LEFT'>   <TD>createconstraintsfilepanel_file_name=1</TD>
+</TR><TR ALIGN='LEFT'>   <TD>constraintschooserpanel_create_file=1</TD>
+   <TD>createconstraintsfilepanel_file_name=1</TD>
    <TD>filesetpanel_file_set_panel_tree=5</TD>
-   <TD>flownavigatortreepanel_flow_navigator_tree=18</TD>
+   <TD>flownavigatortreepanel_flow_navigator_tree=24</TD>
+</TR><TR ALIGN='LEFT'>   <TD>messagewithoptiondialog_dont_show_this_dialog_again=1</TD>
    <TD>pacommandnames_add_sources=1</TD>
-</TR><TR ALIGN='LEFT'>   <TD>pacommandnames_auto_connect_target=1</TD>
+   <TD>pacommandnames_auto_connect_target=1</TD>
    <TD>pacommandnames_open_hardware_manager=1</TD>
-   <TD>pacommandnames_open_target_wizard=1</TD>
+</TR><TR ALIGN='LEFT'>   <TD>pacommandnames_open_target_wizard=1</TD>
    <TD>pacommandnames_reports_window=1</TD>
-</TR><TR ALIGN='LEFT'>   <TD>pacommandnames_run_bitgen=1</TD>
+   <TD>pacommandnames_run_bitgen=1</TD>
    <TD>pacommandnames_run_implementation=1</TD>
-   <TD>pacommandnames_simulation_run_behavioral=2</TD>
+</TR><TR ALIGN='LEFT'>   <TD>pacommandnames_simulation_run_behavioral=2</TD>
    <TD>pacommandnames_write_config_memory_file=1</TD>
-</TR><TR ALIGN='LEFT'>   <TD>paviews_schematic=1</TD>
+   <TD>paviews_schematic=1</TD>
    <TD>programdebugtab_open_target=1</TD>
-   <TD>programdebugtab_program_device=2</TD>
+</TR><TR ALIGN='LEFT'>   <TD>programdebugtab_program_device=2</TD>
    <TD>programdebugtab_refresh_device=1</TD>
-</TR><TR ALIGN='LEFT'>   <TD>programfpgadialog_program=2</TD>
-   <TD>touchpointsurveydialog_no=1</TD>
+   <TD>programfpgadialog_program=2</TD>
+   <TD>tclconsoleview_tcl_console_code_editor=1</TD>
+</TR><TR ALIGN='LEFT'>   <TD>touchpointsurveydialog_no=1</TD>
 </TR>  </TABLE>
   <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
    <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>java_command_handlers</B></TD></TR>
@@ -62,12 +65,13 @@
    <TD>launchprogramfpga=2</TD>
 </TR><TR ALIGN='LEFT'>   <TD>openhardwaremanager=2</TD>
    <TD>openrecenttarget=1</TD>
-   <TD>runbitgen=4</TD>
+   <TD>runbitgen=5</TD>
    <TD>runimplementation=3</TD>
-</TR><TR ALIGN='LEFT'>   <TD>runschematic=1</TD>
+</TR><TR ALIGN='LEFT'>   <TD>runschematic=3</TD>
    <TD>runsynthesis=4</TD>
    <TD>simulationrun=2</TD>
    <TD>viewtaskimplementation=4</TD>
+</TR><TR ALIGN='LEFT'>   <TD>viewtaskrtlanalysis=1</TD>
 </TR>  </TABLE>
 </TR><TR ALIGN='LEFT'>  <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
    <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>other_data</B></TD></TR>
@@ -431,30 +435,27 @@
 </TR><TR ALIGN='LEFT'>    <TD>-max_uram=default::-1</TD>
     <TD>-max_uram_cascade_height=default::-1</TD>
     <TD>-mode=default::default</TD>
-    <TD>-name=default::[not_specified]</TD>
+    <TD>-name=rtl_1</TD>
 </TR><TR ALIGN='LEFT'>    <TD>-no_lc=default::[not_specified]</TD>
     <TD>-no_srlextract=default::[not_specified]</TD>
     <TD>-no_timing_driven=default::[not_specified]</TD>
-    <TD>-part=xc7a35tcpg236-1</TD>
+    <TD>-part=default::[not_specified]</TD>
 </TR><TR ALIGN='LEFT'>    <TD>-resource_sharing=default::auto</TD>
     <TD>-retiming=default::[not_specified]</TD>
-    <TD>-rtl=default::[not_specified]</TD>
+    <TD>-rtl=[specified]</TD>
     <TD>-rtl_skip_constraints=default::[not_specified]</TD>
 </TR><TR ALIGN='LEFT'>    <TD>-rtl_skip_ip=default::[not_specified]</TD>
     <TD>-seu_protect=default::none</TD>
     <TD>-sfcu=default::[not_specified]</TD>
     <TD>-shreg_min_size=default::3</TD>
-</TR><TR ALIGN='LEFT'>    <TD>-top=comparator_2bit</TD>
+</TR><TR ALIGN='LEFT'>    <TD>-top=default::[not_specified]</TD>
     <TD>-verilog_define=default::[not_specified]</TD>
 </TR>   </TABLE>
    </TD></TR>
    <TR><TD>
    <TABLE BORDER='1' CELLSPACING='0' WIDTH='100%'>
     <TR ALIGN='CENTER' BGCOLOR='#DBE5F1'><TD COLSPAN='4'><B>usage</B></TD></TR>
-<TR ALIGN='LEFT'>    <TD>elapsed=00:00:34s</TD>
-    <TD>hls_ip=0</TD>
-    <TD>memory_gain=472.992MB</TD>
-    <TD>memory_peak=775.238MB</TD>
+<TR ALIGN='LEFT'>    <TD>hls_ip=0</TD>
 </TR>   </TABLE>
    </TD></TR>
   </TABLE><BR>

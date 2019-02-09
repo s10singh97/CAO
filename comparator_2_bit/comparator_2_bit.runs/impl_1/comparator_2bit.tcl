@@ -67,6 +67,7 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param synth.incrementalSynthesisCache C:/Users/USER/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-9492-SHASHWAT-LAPTOP/incrSyn
   set_param xicom.use_bs_reader 1
   open_checkpoint comparator_2bit_routed.dcp
   set_property webtalk.parent_dir G:/CAO/comparator_2_bit/comparator_2_bit.cache/wt [current_project]
