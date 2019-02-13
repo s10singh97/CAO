@@ -4,4 +4,5 @@ Jun 14 2018
 20:41:02
 G:/CAO/mux4x1/mux4x1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
 G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux2x1.v,1548873052,verilog,,G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux4x1.v,,mux2x1,,,,,,,,
-G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux4x1.v,1548873380,verilog,,,,mux4x1,,,,,,,,
+G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux4x1.v,1548873380,verilog,,G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux4x1using2x1_tb.v,,mux4x1,,,,,,,,
+G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux4x1using2x1_tb.v,1550055803,verilog,,,G:/CAO/mux4x1/mux4x1.srcs/sources_1/new/mux4x1.v,mux4x1using2x1_tb,,,,,,,,
