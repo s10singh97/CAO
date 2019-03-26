@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/CAO/multi_4bit/multi_4bit.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/CAO/multi_4bit/multi_4bit.srcs/sources_1/new/mul_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+WARNING: [VRFC 10-2845] overwriting previous definition of module full_adder [G:/CAO/multi_4bit/multi_4bit.srcs/sources_1/new/full_adder.v:23]
+INFO: [VRFC 10-311] analyzing module mul_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/CAO/multi_4bit/multi_4bit.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
