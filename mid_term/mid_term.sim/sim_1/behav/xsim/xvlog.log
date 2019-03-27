@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/CAO/mid_term/mid_term.srcs/sources_1/new/a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module a
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/CAO/mid_term/mid_term.srcs/sources_1/new/a_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module a
+WARNING: [VRFC 10-2845] overwriting previous definition of module a [G:/CAO/mid_term/mid_term.srcs/sources_1/new/a.v:23]
+INFO: [VRFC 10-311] analyzing module a_tb
