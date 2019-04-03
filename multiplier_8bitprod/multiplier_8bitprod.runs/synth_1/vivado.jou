@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Apr  3 16:26:18 2019
+# Process ID: 11924
+# Current directory: G:/CAO/multiplier_8bitprod/multiplier_8bitprod.runs/synth_1
+# Command line: vivado.exe -log prod8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source prod8bit.tcl
+# Log file: G:/CAO/multiplier_8bitprod/multiplier_8bitprod.runs/synth_1/prod8bit.vds
+# Journal file: G:/CAO/multiplier_8bitprod/multiplier_8bitprod.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source prod8bit.tcl -notrace
